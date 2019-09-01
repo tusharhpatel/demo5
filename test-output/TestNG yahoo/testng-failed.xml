@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG yahoo]">
+  <test name="testngTest">
+    <classes>
+      <class name="Practiclademo.Practical.Demo1"/>
+      <class name="Practiclademo.Practical.Demo2"/>
+      <class name="Practiclademo.Practical.Demo3"/>
+    </classes>
+  </test> <!-- testngTest -->
+  <test name="testngTest(failed)">
+    <classes>
+      <class name="Practiclademo.Practical.Demo3">
+        <methods>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Practiclademo.Practical.Demo3 -->
+      <class name="Practiclademo.Practical.Demo1">
+        <methods>
+          <include name="EnterFirstName"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="EnterId"/>
+        </methods>
+      </class> <!-- Practiclademo.Practical.Demo1 -->
+      <class name="Practiclademo.Practical.Demo2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- Practiclademo.Practical.Demo2 -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [TestNG yahoo] -->

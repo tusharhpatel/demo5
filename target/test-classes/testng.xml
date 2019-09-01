@@ -1,0 +1,9 @@
+<suite name="TestNG yahoo">
+	<test name="testngTest">
+		<classes>
+			<class name="Practiclademo.Practical.Demo1" />
+			<class name="Practiclademo.Practical.Demo2" />
+			<class name="Practiclademo.Practical.Demo3" />
+		</classes>
+	</test>
+</suite>
